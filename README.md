@@ -8,6 +8,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 * **bruteGetIPs** - brutes the IP addresses on the dns ns.agency website. Takes one argument, the URL
 * **bruteBing** - brutes the ns.agency's pastebin knockoff on pastebing.ns.agency for the pastes encoded via Base62 scheme.  Takes two arguments, the URL and the number of (remaining) base62 places to brute
+* **gent** - generates text wiithin the range and copies it to clipboard (for the future use)
 * **Misc** - Things I were working on but never got time to finish
 
 ## Third party useful stuff

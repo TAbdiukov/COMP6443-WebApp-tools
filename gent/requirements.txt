@@ -1,0 +1,2 @@
+etaprogress=1.1.1
+pyperclip==1.7.0

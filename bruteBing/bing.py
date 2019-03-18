@@ -35,8 +35,8 @@ def main():
 		
 		brute_min = 0
 		brute_max = (62**brute_len)-1
-		
-		bar = ProgressBar(brute_max, max_width=0)
+		work = brute_max-brute_min
+		bar = ProgressBar(work, max_width=40)
 		
 		# print for user
 		print(PROGRAM_NAME+" initialised")
@@ -48,7 +48,7 @@ def main():
 		
 		#payload
 		i = 0
-		for i in range(brute_max-brute_min+1):
+		for i in range(work+1):
 			k=i+brute_min
 			
 			k_string = base62.encode(k) # convertion to the text
