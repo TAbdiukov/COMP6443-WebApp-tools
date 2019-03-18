@@ -1,0 +1,3 @@
+requests==2.21.0
+python-baseconv==1.2.1
+etaprogress=1.1.1
