@@ -25,6 +25,18 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [Tor](https://www.torproject.org) - Humanity's worst challenger
 * [kitty](http://kitty.9bis.net/) - great fork of putty
 
+### Browser extensions
+#### Official
+* [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) - Edit Chrome cookies
+* [Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/edit-cookie/) - Edit Chrome cookies
+
+* [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related) - Force Chrome to use proxy
+* [Proxy SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) - Force Firefox to use proxy
+
+#### Unofficial
+* [View Page Archive & Cache](https://github.com/dessant/view-page-archive) - Check if any online archive would leak anything worthy (Chrome, Firefox, Opera)
+* [Violentmonkey](https://violentmonkey.github.io/) - Violent user scripts in your browser
+
 ### SAAS's
 * [CentralOps](https://centralops.net/co/) - Online DNS and WHOIS lookup tools
 * [IpLocation](https://www.iplocation.net/) - IP location
