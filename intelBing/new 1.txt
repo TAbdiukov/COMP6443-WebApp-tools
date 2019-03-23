@@ -1,0 +1,105 @@
+ITERATIONS
+==1==
+Try SQLi on anything and everything - fail
+==2==
+I. Reg accounts;
+Login/PaSS (SAME)
+1. 8hjJrlXKCX
+2. lDEgmbPdcJ
+3. AtGJzbqaz2
+4. mRIZbbRnyG
+5. Wfctmpd8qB
+6. js4q0556o1
+7. TZlQr56Jeq
+8. fyibBX7QCk
+9. iJif1REc1J
+A. 36BK1mI4Ru
+
+II. Gen first paste: [ http://pastebing.ns.agency/raw/ ]. Links gotten
+
+1 2uL2kKLWFz
+2 2uL2kKLqjv
+3 2uL2kLmogt
+4 2uL2kLn9Ap
+5 2uL2kLnUek
+6 2uL2kLnp8g
+7 2uL2kLo9cc
+8 2uL2kLoV6Y
+9 2uL2kLopaU
+A 2uL2kLpA4Q
++ 2uL2kLpVYL
+
+==3==
+Let login pass = 36BK1mI4Ru => First paste = http://pastebing.ns.agency/raw/2uL2kLpA4Q
+(Why 36BK1mI4Ru? Coz its first paste has a noice least significant letter of Q)
+Session cookie is eyJ1c2VybmFtZSI6IjM2QksxbUk0UnUifQ.D3ffYQ.Wwkgv-HJRcDb80GYLLKCwcoW22A
+
+
+Now the following pastes are 
+2 2uL2kLpA4R
+3 http://pastebing.ns.agency/raw/2uL2kLpA4S
+4 http://pastebing.ns.agency/raw/2uL2kLpA4T
+5 http://pastebing.ns.agency/raw/2uL2kLpA4U
+6 http://pastebing.ns.agency/raw/2uL2kLpA4V
+7 http://pastebing.ns.agency/raw/2uL2kLpA4W
+8 http://pastebing.ns.agency/raw/2uL2kLpA4X
+9 http://pastebing.ns.agency/raw/2uL2kLpA4Y
+
+WOAH
+10 http://pastebing.ns.agency/raw/9PxziJT8z1M
+11 http://pastebing.ns.agency/raw/9PxziJT8z1N
+12 http://pastebing.ns.agency/raw/9PxziJT8z1P
+
+(unfinished)
+
+==4==
+Write a python script to do iteration 3 automatically
+Nothing conclusive. But raw paste links are clearly of Base62
+
+==5==
+I. from i.2 p.2 take output -> take 5 chars from right
+
+KLWFz
+KLqjv
+Lmogt
+Ln9Ap
+LnUek
+Lnp8g
+Lo9cc
+LoV6Y
+LopaU
+LpA4Q
+LpVYL
+
+II. Treat them as numbers. Convert them to base 10. https://www.dcode.fr/base-n-convert
+
+1  691138401
+2  691014025
+3  699824285
+4  700006189
+5  700185488
+6  700065948
+7  700243016
+8  700427204
+9  700304440
+10 700584676
+11 700668867
+
+III. Plug them in to Octave
+
+y = [691138401, 691014025, 699824285, 700006189, 700185488, 700065948, 700243016, 700427204, 700304440, 700584676, 700668867]
+
+y_mod = y - 671000000
+
+for i = 1:columns(y)
+	x(i) = i
+	if(i>1)
+		d(i) = y_mod(i)-y_mod(i-1)
+	else
+		d(i) = 0
+	endif
+plot(x, y_mod)
+
+Things begin to stabilise from x=5 incl?
+
+rate of change:  0   -124376   8810260    181904    179299   -119540 177068    184188   -122764    280236     84191

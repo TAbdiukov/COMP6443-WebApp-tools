@@ -16,6 +16,9 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [git-dumper](https://github.com/arthaud/git-dumper) - Dumps .git directories where present. Helpt me greatly a couple of times
 * [dnsrecon](https://github.com/darkoperator/dnsrecon) - DNS subdomain bruteforcer
 * [clone-gists.py](https://gist.github.com/SpotlightKid/042491a9a2987af04a5a) - Dump someone's all dists via API
+* [primefac fork](https://github.com/elliptic-shiho/primefac-fork) - VERY Fast prime factorisation. Use -v flag
+
+
 
 ### Apps
 * [Nmap](https://nmap.org/) - Port scanning and service pentesting tool
@@ -52,7 +55,8 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 ## Things I look for
 * Executable arguments' blind but smart bruteforcer (both Linux and Windows)
-* Cheat engine for Linux
+* ~~Cheat engine for Linux~~ Direct access via /proc folder
+* WinHex analytics bundles for linux
 
 ## May I contribute?
 Please do 
