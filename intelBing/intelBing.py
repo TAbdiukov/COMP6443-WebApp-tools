@@ -1,6 +1,5 @@
 #!/usr/bin/python  
 import sys  
-import zlib
 import time
 import os
 import requests
@@ -123,7 +122,6 @@ def find_between_r( s, first, last ):
         return s[start:end]
     except ValueError:
         return ""
-
 	
 if __name__ == '__main__':
 	main()
