@@ -5,3 +5,4 @@ venv
 *.log
 plain_*.txt
 *s_*.txt
+pay_*.txt
