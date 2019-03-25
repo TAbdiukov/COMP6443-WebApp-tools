@@ -9,11 +9,12 @@ All things here were written ASAP upon the need with the lack of optimisation
 * **Misc** - Things I were working on but never got time to finish
 * **bruteGetIPs** - brutes the IP addresses on the dns ns.agency website. Takes one argument, the URL
 * **bruteBing** - brutes the ns.agency's pastebin knockoff on pastebing.ns.agency for the pastes encoded via Base62 scheme.  Takes two arguments, the URL and the number of (remaining) base62 places to brute
-* **gent** - generates text wiithin the range and copies it to clipboard (for the future use)
+* **gent** - generates text within the range and copies it to clipboard (for the future use)
 * **intelBing** - a not-so successful attempt on gathering pastebing logic information by spamming pastes
 * 🚗**peekRive** - dumps bing drive pastes via peeker-seeker
 * 🚗**peekRive_reverse** - reverse-dumps bing drive by reverse user lookup from classic peekRive
 * 🚗🚗**riveSafe** - a tool to ashame both drives and safes
+* **crash_your_browser_or_server** - with a good chance (~10%) crashes your browser if not the whole OS! Thanks gent
 
 ## Third party useful stuff
 ### Scripts
