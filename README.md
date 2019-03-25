@@ -13,6 +13,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * **intelBing** - a not-so successful attempt on gathering pastebing logic information by spamming pastes
 * 🚗**peekRive** - dumps bing drive pastes via peeker-seeker
 * 🚗**peekRive_reverse** - reverse-dumps bing drive by reverse user lookup from classic peekRive
+* �🚗**riveSafe** - a tool to ashame both drives and safes
 
 ## Third party useful stuff
 ### Scripts
