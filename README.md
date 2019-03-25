@@ -13,7 +13,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * **intelBing** - a not-so successful attempt on gathering pastebing logic information by spamming pastes
 * 🚗**peekRive** - dumps bing drive pastes via peeker-seeker
 * 🚗**peekRive_reverse** - reverse-dumps bing drive by reverse user lookup from classic peekRive
-* �🚗**riveSafe** - a tool to ashame both drives and safes
+* 🚗🚗**riveSafe** - a tool to ashame both drives and safes
 
 ## Third party useful stuff
 ### Scripts
@@ -51,6 +51,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 ### Docs to see
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Swiss army knife for injections and what not
+* [Testing for Reflected Cross site scripting](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)) - information on XSS
 
 ### Leaked data
 * [9k](9k) - kill the Windows 98 
