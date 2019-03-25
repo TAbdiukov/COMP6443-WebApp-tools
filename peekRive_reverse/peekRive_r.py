@@ -36,7 +36,7 @@ def main():
 		# init
 		# https://stackoverflow.com/a/16060908
 		
-		URL = "http://drive.bing.ns.agency/api/peek/"
+		URL = "PUT URL HERE"
 		input = str(sys.argv[1])
 		try:
 			input_file = open(input, "r")

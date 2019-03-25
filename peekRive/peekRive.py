@@ -36,7 +36,7 @@ def main():
 		# init
 		# https://stackoverflow.com/a/16060908
 		
-		URL = "http://drive.bing.ns.agency/api/peek/file?file_id="
+		URL = "<put gotten url here>"
 		brute_min = int(sys.argv[1])
 		brute_max = int(sys.argv[2])
 		SLEEP_TIME = 1/1000		
