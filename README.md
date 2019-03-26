@@ -6,7 +6,8 @@ Course code isn't in the repo name to prevent 'dumb' fetching the repo
 ## Trivia
 All things here were written ASAP upon the need with the lack of optimisation
 
-* **Misc** - Things I were working on but never got time to finish
+* **Misc** - Things I were working on but not too exciting/never got time to finish
+
 * **bruteGetIPs** - brutes the IP addresses on the dns ns.agency website. Takes one argument, the URL
 * **bruteBing** - brutes the ns.agency's pastebin knockoff on pastebing.ns.agency for the pastes encoded via Base62 scheme.  Takes two arguments, the URL and the number of (remaining) base62 places to brute
 * **gent** - generates text within the range and copies it to clipboard (for the future use)
@@ -34,15 +35,17 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 ### Browser extensions
 #### Official
-* [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) - Edit Chrome cookies
-* [Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/edit-cookie/) - Edit Firefox cookies
+* ⚽[EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) - Edit Chrome cookies
+* 🦊[Cookie Editor](https://addons.mozilla.org/en-US/firefox/addon/edit-cookie/) - Edit Firefox cookies
 
-* [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related) - Force Chrome to use proxy
-* [Proxy SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) - Force Firefox to use proxy
+* ⚽[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related) - Force Chrome to use proxy
+* 🦊[Proxy SwitchyOmega](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/) - Force Firefox to use proxy
 
 #### Unofficial
-* [View Page Archive & Cache](https://github.com/dessant/view-page-archive) - Check if any online archive would leak anything worthy (Chrome, Firefox, Opera)
-* [Violentmonkey](https://violentmonkey.github.io/) - Violent user scripts in your browser
+* 🌈[View Page Archive & Cache](https://github.com/dessant/view-page-archive) - Check if any online archive would leak anything worthy (Chrome, Firefox, Opera)
+* 🌈[Violentmonkey](https://violentmonkey.github.io/) - Violent user scripts in your browser
+
+* 🦊[Cookie Quick Manager](https://addons.mozilla.org/en-GB/firefox/addon/cookie-quick-manager/) - Advanced cookie tools incl. cookie automation.
 
 ### SAAS's
 * [CentralOps](https://centralops.net/co/) - Online DNS and WHOIS lookup tools
