@@ -89,17 +89,15 @@ III. Plug them in to Octave
 
 y = [691138401, 691014025, 699824285, 700006189, 700185488, 700065948, 700243016, 700427204, 700304440, 700584676, 700668867]
 
-y_mod = y - 671000000
-
-for i = 1:columns(y)
-	x(i) = i
-	if(i>1)
-		d(i) = y_mod(i)-y_mod(i-1)
-	else
-		d(i) = 0
-	endif
-plot(x, y_mod)
-
 Things begin to stabilise from x=5 incl?
 
 rate of change:  0   -124376   8810260    181904    179299   -119540 177068    184188   -122764    280236     84191
+
+==6==
+Good news! Zain says:
+zain ;D [11:37 AM]
+@channel Hint for pastebing: The type of vulnerability is a IDOR, this is the only vuln on the site
+
+More on IDOR: https://www.youtube.com/watch?v=TRDyvgkBcUs
+
+==-==
