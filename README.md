@@ -49,7 +49,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [IpLocation](https://www.iplocation.net/) - IP location
 * [NIC](https://www.nic.ru/whois/?searchWord=put_url_here) - Russian WHOIS service. May produce different results as the authoritaristic DNS alternative emerges
 * [dencoder](https://meyerweb.com/eric/tools/dencoder/) - URL encoder and decoder
-* [dcode.fr](https://www.dcode.fr/base-n-convert) - 6441 stuff hate him! Because of this one simplec trick!
+* [dcode.fr](https://www.dcode.fr/base-n-convert) - 6441 staff hate him! Because of this ONE simple trick!
 
 ### Docs to see
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Swiss army knife for injections and what not
