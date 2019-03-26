@@ -1,4 +1,4 @@
-# WebApp-tools
+﻿# WebApp-tools
 Tools designed to help pass the UNSW's COMP6443 / 6483 course (WebApp security)
 
 Course code isn't in the repo name to prevent 'dumb' fetching the repo
@@ -15,6 +15,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * 🚗**peekRive_reverse** - reverse-dumps bing drive by reverse user lookup from classic peekRive
 * 🚗🚗**riveSafe** - a tool to ashame both drives and safes
 * **crash_your_browser_or_server** - with a good chance (~10%) crashes your browser if not the whole OS! Thanks gent
+* **XSS** - everything related to XSS
 
 ## Third party useful stuff
 ### Scripts
