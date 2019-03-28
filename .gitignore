@@ -6,3 +6,5 @@ venv
 plain_*.txt
 *s_*.txt
 pay_*.txt
+priv_*
+private_*
