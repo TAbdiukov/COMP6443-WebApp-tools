@@ -28,7 +28,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 ### Apps
 * [Nmap](https://nmap.org/) - Port scanning and service pentesting tool
-* [sqlmap](http://sqlmap.org/) - I'll kill you all! In the sequel!
+* [sqlmap](http://sqlmap.org/) - [I'll kill you all! In the sequel!](https://youtu.be/I17jhOgrGMU)
 * [Burp](https://portswigger.net/burp/communitydownload) - Intercept all traffic w/o messing with WireShark
 * [WireShark](https://www.wireshark.org/) - Low-level packet analytics tool
 * [Tor](https://www.torproject.org) - Humanity's worst challenger
@@ -71,3 +71,16 @@ All things here were written ASAP upon the need with the lack of optimisation
 
 ## May I contribute?
 Please do 
+
+## Are these tokens and sessions in scripts real? 
+
+They **were** real, but long expired. So don't bother trying to abuse them 😊
+
+## Post-scriptum aka memes/what the hell (and I normally hate them)
+
+[South32 is looking for 1 million dollar investors](http://south32.com/south32/south32/south32sex/). Yes that's right. [Are you still not sure about about the venture?](https://www.youtube.com/watch?v=p69h_1QEpHI). South32 [is indeed ~~in~~transternational](https://www.youtube.com/watch?v=0NfuuY8LtRc)
+
+[serious link](https://www.youtube.com/watch?v=2UWRfFZOvUQ). satana.com  is down. And if curious, 6443 is da key.
+
+
+ 
