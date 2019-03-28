@@ -14,7 +14,7 @@ from etaprogress.progress import ProgressBar
 def main():
 	PROGRAM_NAME = "bing"
 	if len(sys.argv) != 3:
-		print("USAGE: python "+PROGRAM_NAME+".py (URL)")
+		print("USAGE: python "+PROGRAM_NAME+".py <URL> <length>")
 		print("For example: python "+PROGRAM_NAME+".py http://pastebing.ns.agency/raw/2uKYCmrAg 1")
 	else:
 		# init
