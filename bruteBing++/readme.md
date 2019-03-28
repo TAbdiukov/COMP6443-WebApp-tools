@@ -1,0 +1,1 @@
+3 characters different => the work should take (26(lowercase)+26(uppercase)+10(numbers))^3(characters to brute force)/5(say, 5 requests a second)/60(minutes)/60(hours)/2(flag is somewhere in the middle) + 2 (hours for me to get from UNSW to home) = 9 hours (in which I'll send something back) :slightly_smiling_face:

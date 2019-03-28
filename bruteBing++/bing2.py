@@ -24,35 +24,35 @@ def main():
 		print("USAGE: python "+PROGRAM_NAME+".py <URL> <min> <max>")
 		print("brute_min & brute_max in base62, ie case sensitive")
 		print("Note: length is picked up from min&max, so pass args correctly")
+		print("Note: base62 is as follows: numbers->CAPITALS->lowercase")
 		print("For example: python "+PROGRAM_NAME+".py http://pastebing.ns.agency/raw/2uKYCmrA 0m Fz")
 	else:
 		# init		
 		URL = str(sys.argv[1])
 		length = max(len(sys.argv[2]), len(sys.argv[3]))
-		brute_min = base62.decode(sys.argv[2])
-		brute_max = base62.decode(sys.argv[3])
+		brute_min = int(base62.decode(sys.argv[2]))
+		brute_max = int(base62.decode(sys.argv[3]))
 		
 		logname = PROGRAM_NAME+"_"+getUnixTime()+".log"
 		log = open(logname, "a+")
 		
 		cookies = {
 			"zid": "z5214048",
-			"token": "88d60373d31db28d31a54a184759c1e4bab6a60a48c54f7eda48459b8b692287",
-			"session": "eyJ1c2VybmFtZSI6ImNvb2tpZXMgIn0.D20t9w.Yit2yv7ojsbNSBmMn2-aBvGla1c"
+			"token": "???",
+			"session": "???"
 		}
 		
 		headers = {
 			"Upgrade-Insecure-Requests": "1"
 		}
 		
-		brute_min = 0
-		brute_max = (62**length)-1
 		work = brute_max-brute_min
 		bar = ProgressBar(work, max_width=40)
 		
 		# print for user
 		print(PROGRAM_NAME+" initialised")
 		print("URL: "+URL)
+		print("Note: base62 is as follows: numbers->CAPITALS->lowercase")
 		print("stdout will be logged to "+logname)
 		print("the bruteforce will start in 3s")
 		# allow user to change brute_mind
