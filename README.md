@@ -3,6 +3,14 @@ Tools designed to help pass the UNSW's COMP6443 / 6483 course (WebApp security)
 
 Course code isn't in the repo name to prevent 'dumb' fetching the repo
 
+## Propaganda
+
+[South32 is looking for 1 million dollar investors](http://south32.com/south32/south32/south32sex/). Yes that's right. [Are you still not sure about about the venture?](https://www.youtube.com/watch?v=p69h_1QEpHI). South32 [is indeed ~~in~~transternational](https://www.youtube.com/watch?v=0NfuuY8LtRc)
+
+[serious link](https://www.youtube.com/watch?v=2UWRfFZOvUQ). satana.com  is down. And if curious, 6443 is da key to finding about idea of website
+
+...And their [response](https://www.youtube.com/watch?v=rroMpuhHKFg). Even [more disturbing so](https://www.youtube.com/watch?v=TJVHlFtz2zw)
+
 ## Trivia
 All things here were written ASAP upon the need with the lack of optimisation
 
