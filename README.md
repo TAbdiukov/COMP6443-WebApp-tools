@@ -26,6 +26,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * 🚗**peekRive_reverse** - reverse-dumps bing drive by reverse user lookup from classic peekRive
 * 🚗🚗**riveSafe** - a tool to ashame both drives and safes
 * **XSS** - everything related to XSS
+* **zeroBing** - a previously private, but now successful tool for attacking pastebing via rubbish data overflow
 
 ## Third party useful stuff
 ### Scripts
