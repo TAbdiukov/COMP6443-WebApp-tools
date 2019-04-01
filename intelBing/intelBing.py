@@ -27,8 +27,8 @@ def main():
 		
 		cookies = {
 			"zid": "z5214048",
-			"token": "7f9beb00045ec2a7af0bbea5281c9e088025dc53fbf18fdefd8da90fb26d4684",
-			"session": "eyJ1c2VybmFtZSI6IjM2QksxbUk0UnUifQ.D3fmSg.hMMOS2BM_bZ4P7wu0DtAjurIJoU"
+			"token": "f125a03145e7fc9c2aeab439581cdd156debd68e7ef29184c5039e5ccb454fe1",
+			"session": "eyJ1c2VybmFtZSI6Im1hbWEifQ.D35zOQ.uM2R-fEJvlCqQc5RguOovYZyF1E"
 		}
 		
 		URL_new = "http://pastebing.ns.agency/new"
