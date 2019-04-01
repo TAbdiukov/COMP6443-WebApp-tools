@@ -28,6 +28,8 @@ All things here were written ASAP upon the need with the lack of optimisation
 * **XSS** - everything related to XSS
 
 ## Third party useful stuff
+### Mirrored
+* miniHTTPCatcher - Simple yet powerful pentesting HTTP server on Python 2
 ### Scripts
 * [git-dumper](https://github.com/arthaud/git-dumper) - Dumps .git directories where present. Helpt me greatly a couple of times
 * [dnsrecon](https://github.com/darkoperator/dnsrecon) - DNS subdomain bruteforcer
