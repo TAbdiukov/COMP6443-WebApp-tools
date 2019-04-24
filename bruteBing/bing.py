@@ -3,12 +3,12 @@ import sys
 import zlib
 import time
 import os
-import requests
 import re
 
 #import requests-futures
 from baseconv import base62
-from etaprogress.progress import ProgressBar
+from etaprogress.progress import ProgressBar'
+import requests
 
 
 def main():
