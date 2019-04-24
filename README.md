@@ -28,6 +28,7 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [dnsrecon](https://github.com/darkoperator/dnsrecon) - DNS subdomain bruteforcer
 * [clone-gists.py](https://gist.github.com/SpotlightKid/042491a9a2987af04a5a) - Dump someone's all dists via API
 * [primefac fork](https://github.com/elliptic-shiho/primefac-fork) - VERY Fast prime factorisation. Use -v flag
+* [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager) - Encore and decode bloody flask cookiez
 
 ### Apps
 * [Nmap](https://nmap.org/) - Port scanning and service pentesting tool
