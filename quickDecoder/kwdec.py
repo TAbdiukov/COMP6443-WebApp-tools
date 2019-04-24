@@ -10,7 +10,7 @@ PROGRAM_NAME_SHORT = "kwdec"
 BAD = "Inconvertable :("
 
 ASCII = ''.join(chr(x) for x in range(256))
-ASCII_base = BaseConverter(ASCII, sign='я')
+ASCII_base = BaseConverter(ASCII, sign='ё') # umlaut e is for failsafe
 
 # https://stackoverflow.com/a/3368991
 def find_between( s, first, last ):
