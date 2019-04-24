@@ -1,0 +1,2 @@
+pyperclip==1.7.0
+python-baseconv==1.2.1

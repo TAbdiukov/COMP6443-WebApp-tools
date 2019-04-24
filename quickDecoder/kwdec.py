@@ -1,4 +1,8 @@
-from baseconv import base2, base16, base36, base56, base58, base62, base64, BaseConverter  # https://github.com/semente/python-baseconv
+from flask_session_cookie_manager import FSCM
+
+# https://github.com/semente/python-baseconv
+from baseconv import base2, base16, base36, base56, base58, base62, base64, BaseConverter  
+
 import pyperclip
 
 import time
@@ -92,6 +96,12 @@ def main():
 					try:
 						b64 = ASCII_base.encode(base64.decode(raw))
 						ret += "base64: "+b64+"\n"
+					except Exception:
+						pass
+					
+					try:
+						flask = FSCM.decode(raw)
+						ret += "Flask: "+flask+"\n"
 					except Exception:
 						pass
 					
