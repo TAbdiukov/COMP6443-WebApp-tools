@@ -1,0 +1,8 @@
+HTTP/1.1 302 Found
+Date: Wed, 24 Apr 2019 17:04:57 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Location: http://google.com/pig.svg
+Content-Length: 0
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
