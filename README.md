@@ -6,6 +6,7 @@ Course code isn't in the repo name to prevent 'dumb' fetching the repo
 ## Trivia
 All things here were written ASAP upon the need with the lack of optimisation
 
+* **arbitrary_code_injection** - arbitrary code execution. See one of tapes to get idea of what it is 😊
 * **crash_your_browser_or_server** - with a good chance (~10%) crashes your browser if not the whole OS! Thanks gent
 * **Misc** - Things I were working on but not too exciting/never got time to finish
 
@@ -28,7 +29,9 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [dnsrecon](https://github.com/darkoperator/dnsrecon) - DNS subdomain bruteforcer
 * [clone-gists.py](https://gist.github.com/SpotlightKid/042491a9a2987af04a5a) - Dump someone's all dists via API
 * [primefac fork](https://github.com/elliptic-shiho/primefac-fork) - VERY Fast prime factorisation. Use -v flag
-* [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager) - Encore and decode bloody flask cookiez
+* [Flask Session Cookie Decoder/Encoder](https://github.com/noraj/flask-session-cookie-manager) - Encore and decode bloody flask cookiez. Opened a PR with great changes, see if I get approved 😊
+* [baseconv](https://github.com/semente/python-baseconv) - A small but surprisingly useful script for (abstract) base conversion. Aside from converting to "whatever" base, helps to convert to the local weird encoding, such as [here](https://github.com/semente/python-baseconv/issues/5) or on quickdecoder
+
 
 ### Apps
 * [Nmap](https://nmap.org/) - Port scanning and service pentesting tool
@@ -63,14 +66,21 @@ All things here were written ASAP upon the need with the lack of optimisation
 * [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Swiss army knife for injections and what not
 * [Testing for Reflected Cross site scripting](https://www.owasp.org/index.php/Testing_for_Reflected_Cross_site_scripting_(OTG-INPVAL-001)) - information on XSS
 
+### 🎞️🍿 Tapes
+* [UNSW COMP6843 / 6443 Revision tute #1 (T1 2019)](https://www.youtube.com/watch?v=YEIQVKY0wPE)
+
+* [SMW Jailbreaking](https://www.youtube.com/watch?v=Ixu8tn__91E)
+* [SMB3 arbitrary code execution TAS](https://www.youtube.com/watch?v=oWbwmxVpqVI)
+
 ### Leaked data
 * [9k](9k) - kill the Windows 98 
 * [Flask core](https://github.com/secedu/flask-core) - core used by COMP6443
 
 ## Things I look for
-* Executable arguments' blind but smart bruteforcer (both Linux and Windows)
 * ~~Cheat engine for Linux~~ Direct access via /proc folder
 * ~~AHK for linux~~ [archive.org](https://web.archive.org/web/20190324162541/https://unix.stackexchange.com/questions/165124/autohotkey-equivalent)
+
+* Executable arguments' blind but smart bruteforcer (both Linux and Windows)
 * WinHex analytics bundles for linux
 
 ## May I contribute?
