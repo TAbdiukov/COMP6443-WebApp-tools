@@ -50,7 +50,7 @@ def main():
 		while True:
 			tmp_value = pyperclip.paste()
 			if tmp_value != recent_value:
-				raw = find_between(tmp_value, "MoodleSessionLMS2=", "; path=/")
+				raw = tmp_value #find_between(tmp_value, "MoodleSessionLMS2=", "; path=/")
 				if(len(raw)):
 					what_to_log = "[+] Input: "+raw
 					print(what_to_log)
