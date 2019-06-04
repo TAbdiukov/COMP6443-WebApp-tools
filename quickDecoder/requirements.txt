@@ -1,3 +1,4 @@
 pyperclip==1.7.0
 python-baseconv==1.2.1
 git+https://github.com/TAbdiukov/flask-session-cookie-manager
+# flask-session-cookie-manager
