@@ -1,4 +1,4 @@
-from flask_session_cookie_manager import FSCM
+from flask_session_cookie_manager3 import FSCM
 
 # https://github.com/semente/python-baseconv
 from baseconv import base2, base16, base36, base56, base58, base62, base64, BaseConverter  
@@ -100,7 +100,7 @@ def main():
 						pass
 					
 					try:
-						flask = FSCM.decode(raw)
+						flask = FSCM.decode(str(raw), None)
 						ret += "Flask: "+flask+"\n"
 					except Exception:
 						pass
