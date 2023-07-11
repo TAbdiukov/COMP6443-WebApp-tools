@@ -1,4 +1,5 @@
 # Pig
 # arbitrary_code_injection/pig/*.png linguist-language=Java
 
-
+# Ignore all differences in line endings
+*        -crlf
