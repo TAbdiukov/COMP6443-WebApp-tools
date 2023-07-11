@@ -1,7 +1,6 @@
-﻿# WebApp-tools
-Tools designed to help pass the UNSW's COMP6443 / 6483 course (WebApp security)
+﻿# COMP6443-WebApp-tools-2019
 
-Course code isn't in the repo name to prevent 'dumb' fetching the repo
+Tools designed to help pass the UNSW's COMP6443 / 6483 course (WebApp security)
 
 ## Trivia
 All things here were written ASAP upon the need with the lack of optimisation
