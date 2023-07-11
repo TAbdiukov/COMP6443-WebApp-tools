@@ -1,6 +1,6 @@
 ﻿# COMP6443-WebApp-tools
 
-![Picture](./misc/image1.png)  
+![Picture](./Misc/image1.png)  
 Tools designed for UNSW's COMP6443 / 6483 course (WebApp security)
 
 ## Trivia
