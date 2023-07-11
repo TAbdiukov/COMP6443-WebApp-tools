@@ -21,6 +21,7 @@ These tools were not optimized much and were written on-the-fly to meet the dema
 * 🚗🚗**riveSafe** - a tool to ashame both drives and safes
 * **XSS** - everything related to XSS
 * **zeroBing** - a previously private, but now successful tool for attacking pastebing via rubbish data overflow
+* ⛰️**patch-last** - Blue-team code patching assignment, the last task for COMP6843/6443.
 
 ## Third party useful stuff
 ### Mirrored
