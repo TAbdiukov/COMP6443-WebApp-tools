@@ -1,10 +1,11 @@
 ﻿# COMP6443-WebApp-tools
 
 ![Picture](./Misc/image1.png)  
-Tools designed for UNSW's COMP6443 / 6483 course (WebApp security)
+Tools designed for UNSW's COMP6443 / 6483 course (WebApp Security)
 
 ## Trivia
-All things here were written ASAP upon the need with lack of optimisation.
+
+These tools were not optimized much and were written on-the-fly to meet the demand.
 
 * **arbitrary_code_injection** - arbitrary code execution. See one of tapes to get idea of what it is 😊
 * **crash_your_browser_or_server** - with a good chance (~10%) crashes your browser if not the whole OS! Thanks gent
@@ -83,12 +84,3 @@ All things here were written ASAP upon the need with lack of optimisation.
 * Executable arguments' blind but smart bruteforcer (both Linux and Windows)
 * WinHex analytics bundles for linux
 
-## May I contribute?
-Please do 
-
-## Are these tokens and sessions in scripts real? 
-
-They **were** real, but long expired. So don't bother trying to abuse them 😊
-
-
- 
