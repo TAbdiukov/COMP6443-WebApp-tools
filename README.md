@@ -1,9 +1,10 @@
-﻿# COMP6443-WebApp-tools-2019
+﻿# COMP6443-WebApp-tools
 
-Tools designed to help pass the UNSW's COMP6443 / 6483 course (WebApp security)
+![Picture](./misc/image1.png)
+Tools designed for UNSW's COMP6443 / 6483 course (WebApp security)
 
 ## Trivia
-All things here were written ASAP upon the need with the lack of optimisation
+All things here were written ASAP upon the need with lack of optimisation.
 
 * **arbitrary_code_injection** - arbitrary code execution. See one of tapes to get idea of what it is 😊
 * **crash_your_browser_or_server** - with a good chance (~10%) crashes your browser if not the whole OS! Thanks gent
