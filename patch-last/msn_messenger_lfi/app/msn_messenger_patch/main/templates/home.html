@@ -1,0 +1,16 @@
+{% extends "common/base.html" %}
+{% block content %}
+    <h1>welcome to the msn messenger service</h1>
+    <h4>our funding got cut <small>send help</small></h4>
+
+    <hr>
+
+    <h5>send us a message</h5>
+    <br>
+
+    <form action="interact" method="POST">
+        <input type="text" name="message" class="form-control" placeholder="hi messenger how r u">
+        <br><br>
+        <input type="submit" class="btn btn-success" value="send message">
+    </form>
+{% endblock %}

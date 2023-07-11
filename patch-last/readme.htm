@@ -1,0 +1,187 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Spec_files/bootstrap.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Spec_files/styles.css">
+    <title>Spec</title>
+
+    <!-- Style Overrides -->
+    <style>
+    .link-override{
+      color: white;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .link-override:hover {
+      color: #00bc8c;
+      text-decoration: none;
+    }
+    .container {
+      margin-top: 1rem;
+    }
+    </style>
+  </head>
+<body>
+  <div class="container">
+    <div style="width: 100%; text-align: center; margin-top: 20vh; margin-bottom: 20vh;">
+      <h1 style="width: 100%; text-align: center; color: white">COMP6443 Final</h1>
+      <span class="center" style="opacity: 0.5">Exam Pair A, Exam 2 - Patch </span><br>
+      <span class="center" style="opacity: 0.5">Details Further Down This Page</span>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="center">Submission</h2><br>
+        <p class="center">
+            Once you are done editing the code simply do
+            <code>
+                git diff &gt; z0000000.A.patch
+            </code>
+        </p>
+        <p class="center">
+          Submit via cse with the following commmand<br>(accepts txt, pdf, md, etc. 5MB limit)
+        </p>
+        <p class="center cli">
+          <code>
+            give cs6443 final_patch z0000000.A.patch
+          </code>
+        </p>
+        <p class="center">
+          Or submit via webcms at exams &gt; Exam Pair A, Final Patch Submission
+        </p>
+        <div class="alert alert-dismissible alert-info">
+            <p class="mb-0">You may submit a many times as you like</p>
+        </div>
+        <h2 class="center">Marking</h2><br>
+        <p class="center">
+            All questions may *not* be weighted equally.
+        </p>
+        <div class="alert alert-dismissible alert-info">
+            <p class="mb-0">Partial Marks are Available</p>
+        </div>
+        <h2 class="center">Issues</h2><br>
+        <p class="center">
+          All issues goes to cs6443@cse.unsw.edu.au, all updates about the exam will be sent out via email/webcms. Stay posted.
+        </p>
+      <p></p>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="center">Exam</h2><br>
+        <p class="center">
+          Exam will start at <b>9am Thursday the 16th of May</b>,
+          at which point you can submit at any point until <b>9pm the same day</b>
+        </p>
+        <div class="alert alert-dismissible alert-danger">
+            <h4 class="alert-heading">Warning!</h4>
+            <p class="mb-0">Late submissions recieve 0</p>
+        </div>
+        <p class="center">This can be done entirely remotely but you 
+must not communicate with any other person in the course, doing so will 
+be counted as plagerism.</p>
+        <p class="center">The exam will consist of the source of 4 
+websites being given to you in a tar file. These will mimic the sites 
+you attacked in the break portion of this final exam. Simply identify 
+and fix the security vulnerabilities in each of these sites and submit 
+your diff.</p>
+        <p class="center">To run these sites you will need python, postgres and in some cases <code>sqlite3</code>
+ running on your local machine. If you have trouble please use a VPS 
+service, note you may need to install libq-dev on some unix like 
+systems.</p>
+        <div class="alert alert-dismissible alert-info">
+          <h4 class="alert-heading">Docker</h4>
+          <p class="mb-0">Given the many issues some students had we are
+ defaulting to just python sites with a simple pip install, we will not 
+be asking you to set up a docker image but we will assume you can run 
+bash scripts on your machine</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h2 class="center">Code</h2><br>
+        <p class="center">
+           The code which will be provided will have the edited source 
+code of 4 sites you must patch. These sites will not be the exact same 
+as those you saw in the break, they have been cut down and trimmed so 
+only the core components that need to be fixed are present and 
+additional sites have been added. You will most likley have to edit a 
+file called <code>views.py</code> within the structure.
+        </p>
+        <p class="center">
+          The provided .tar will come with a .git initalized so you can 
+edit and do a git diff at the end to produce a diff file. Note of course
+ that if you git add and commit then all your changes will not be 
+produced in a git diff anymore as they are no longer in staging.
+        </p>
+        <div class="alert alert-dismissible alert-warning">
+            <h4 class="alert-heading">Warning!</h4>
+            <p class="mb-0">Do not add or commit any of your changes as this will push them off of your basic git diff output</p>
+        </div>
+        <div class="alert alert-dismissible alert-danger">
+          <h4 class="alert-heading">Warning!</h4>
+          <p class="mb-0">This exam must be done <b>individually</b>, we expect you to not communicate with any
+            other student doing the exam or to ask anybody else for help. Doing so
+            will count as acedemic misconduct.</p>
+          <p class="mb-0">In addition do not share these files with other students, doing so will be counted as misconduct</p>
+      </div>
+      </div>
+    </div>
+    <h1 class="center headline">Countdown</h1>
+    <div class="jumbotron" style="border-radius: 15px">
+        <h1 class="display-3" id="demo">NaNd NaNh NaNm NaNs </h1>
+        <p class="lead" id="msg">
+          Until exam start, Once the exam has started refresh the page to see the questions
+        </p>
+    </div>
+    <h1 class="center headline">Patch Repo</h1>
+    <div class="jumbotron" style="border-radius: 15px">
+        
+        <h2 class="display-4" id="demo">COMP6443 Exam Pair A, Exam 2 - Patch</h2>
+        <br>
+        <h3> Code </h3>
+        <p>
+          <a href="https://info.exam.a.ns.agency/d8413ebb418e9d37371e9ba601722431/v3/download">Download Code</a>
+        </p>
+        <br>
+        <p> Please ensure you name your file <code>z0000000.A.patch</code> replacing the <code>z0000000</code> with your zid</p>
+        
+    </div>
+</div>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("May 16, 2019 10:30:00+1000").getTime();
+    var rightNow = new Date().getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get todays date and time
+      var now = new Date().getTime();
+      if (countDownDate < now) {
+        countDownDate = new Date("May 16, 2019 22:30:00+1000").getTime();
+        document.getElementById("msg").innerText = "Until Exam End";
+      }
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+</script>
+
+</body></html>
